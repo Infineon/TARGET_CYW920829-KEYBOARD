@@ -2,7 +2,7 @@
 
 ## Overview
 
-The AIROC™ CYW20829 keyboard reference solution is an ultra-low power keyboard design with multi-device support that demonstrates Bluetooth® LE HID over GATT profile It comes with the right combination of low power and high performance dual core Arm® Cortex® M33 to meet the demands of battery powered keyboard.
+The AIROC™ CYW20829 keyboard reference solution is an ultra-low power keyboard design with multi-host support that demonstrates Bluetooth® LE HID over GATT profile It comes with the right combination of low power and high performance dual core Arm® Cortex® M33 to meet the demands of battery powered keyboard.
 
 
 
@@ -13,17 +13,12 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 ### Kit Features:
 
 * 32-bit CPU subsystem with Arm® Cortex® M33
-* 128-KB SRAM with power and data retention control
-* Low power 2.1 - 3.0 V operation
-* Bluetooth® LE subsystem with 2.4GHz RF transceiver, Digital PHY and Programmable TX power
+* 256-KB SRAM with power and data retention control
+* Low power 1.7 - 3.0 V operation
+* Bluetooth® LE 5.4 core spec-compliant
 * Battery voltage measurement with 16 bit ADC
 * 5-pin SWD connectors
 * Built-in Keyscan matrix pre-configured for 79 keys layout
-
-### Kit Contents:
-
-* CYW920829-KEYBOARD Reference kit
-* Kit Quick Start Guide
 
 ## BSP Configuration
 
